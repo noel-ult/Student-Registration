@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+    .form-container {
+      border: 2px solid #4CAF50;
+      padding: 20px;
+      width: 400px;
+      border-radius: 10px;
+    }
+    .form-row {
+      margin-bottom: 15px;
+    }
+    .label {
+      display: inline-block;
+      width: 100px;
+      font-weight: bold;
+    }
+    table {
+      margin-top: 30px;
+      border-collapse: collapse;
+      width: 600px;
+    }
+    table, th, td {
+      border: 1px solid #333;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    .submit-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Student Registration Form</h2>
+
+  <div class="form-container">
+    <form>
+      <div class="form-row">
+        <span class="label">Name:</span>
+        <input type="text" name="name" required>
+      </div>
+      <div class="form-row">
+        <span class="label">Email:</span>
+        <input type="email" name="email" required>
+      </div>
+      <div class="form-row">
+        <span class="label">Gender:</span>
+        <input type="radio" name="gender" value="Male"> <span>Male</span>
+        <input type="radio" name="gender" value="Female"> <span>Female</span>
+      </div>
+      <div class="form-row">
+        <span class="label">Branch:</span>
+        <select name="branch">
+          <option value="CSE">CSE</option>
+          <option value="ECE">ECE</option>
+          <option value="EEE">EEE</option>
+          <option value="MECH">MECH</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <input type="submit" value="Register" class="submit-btn">
+      </div>
+    </form>
+  </div>
+
+  <h3>Sample Registered Students</h3>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Gender</th>
+      <th>Branch</th>
+    </tr>
+    <tr>
+      <td>Alice</td>
+      <td>alice@gmail.com</td>
+      <td>Female</td>
+      <td>CSE</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>bob@gmail.com</td>
+      <td>Male</td>
+      <td>ECE</td>
+    </tr>
+  </table>
+
+</body>
+</html>
