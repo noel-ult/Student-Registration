@@ -22,3 +22,7 @@ Check labels, required-field behavior, keyboard navigation, and layout at narrow
 
 - [Source, command, and configuration reference](docs/REFERENCE.md)
 - [Contributing](CONTRIBUTING.md)
+
+<!-- developer-handbook-20261028 -->
+[Source reference](docs/REFERENCE.md) · [Verification and operations](docs/OPERATIONS.md)
+<!-- /developer-handbook-20261028 -->
